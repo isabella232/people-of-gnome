@@ -157,8 +157,8 @@ expect all contributors to uphold the [Code of Conduct][code-of-conduct].
 This project is licensed under the [Creative Commons BY-SA-4.0][license].
 
 <!-- markdown variables -->
-[contributing]: CONTRIBUTING.MD
-[code-of-conduct]: CODE_OF_CONDUCT.MD
+[contributing]: /CONTRIBUTING.MD
+[code-of-conduct]: /CODE_OF_CONDUCT.MD
 [official-jekyll]: https://jekyllrb.com
 [package.json]: package.json
 [Gemfile]: Gemfile
