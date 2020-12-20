@@ -21,10 +21,11 @@ The data used by the site is stored in the form of following files:
 ## Project Structure
 
     ...
-    ├── .gitlab/                            #contains gitlab template files for bugs and merge requests
+    ├── .gitlab/                            #contains Gitlab template files for bugs and merge requests
     ├── _data/                              #contains site's data files
     │   ├── members/                        #contains all the members/contributors stored in the platform in YML format
     │   ├── navigation.yml                  #links to be added to the site's header and footer sections
+    │   ├── member-template.yml             #contains template to add members
     │   ├── projects.json                   #contains all the GNOME projects metadata
     │   ├── badges.json                     #contains metadata of all GNOME Badges/Tags
     │   ├── events.json                     #contains metadata of all GNOME conferences
@@ -33,6 +34,8 @@ The data used by the site is stored in the form of following files:
     │   ├── footer.html                     #the footer of the site
     │   ├── header.html                     #the meta data of the site
     │   ├── navbar.html                     #the navbar of the site
+    │   ├── scripts.html                    #the scripts used in the site
+    │   ├── subheader.html                  #the subheader of the site
     │   ├── contributors/                   #contains templates for the contributors pages
     │   ├── foundation/                     #contains templates for the foundation pages
     │   ├── speakers/                       #contains templates for the speakers pages
@@ -66,7 +69,7 @@ The data used by the site is stored in the form of following files:
 
 ## Adding yourself to the Website
 
-Create a new YAML file on `_data/members/` directory containing the following entries. You can also loook at [this template](_data/member-template.yml)
+Create a new YAML file on `_data/members/` directory containing the following entries. You can also look at [this template](_data/member-template.yml)
 
 | Field         | Description                                       | Example                 | Type                                                    |
 | ------------- |:-------------------------------------------------:| -----------------------:| ------------------------------------------------------- |
