@@ -92,7 +92,11 @@ You're also free to add new Badges and Social Networks and Projects/Repositories
 
 To get the site up and running locally, follow the below steps:
 
-1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/).
+**PS.:** You need to have a full Bash environment. If you're on Windows, please use WSL.
+
+1. Install the Dependencies:
+  - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+  - [NodeJS](https://nodejs.org/en/download/)
 2. Create a local clone of the website:
 ```
 git clone https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome.git
@@ -110,9 +114,6 @@ cd faces-of-gnome
 ./run.sh
 ```
 6. Browse to [http://localhost:4000](http://localhost:4000) to view the website.
-
-## Setup on APT based Distributions:
-`apt install jekyll ruby-dev build-essential npm` after installing these follow `Step 4`
 
 ## Dependencies
 
