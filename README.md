@@ -88,34 +88,34 @@ After this, add a new entry and commit the changes with a **Merge Request**. If 
 
 You're also free to add new Badges and Social Networks and Projects/Repositories, by creating new entries on the `social_networks.json`, `badges.json` and `projects.json`.
 
-## Setup Locally
+## Installing & Running
 
 To get the site up and running locally, follow the below steps:
 
 **PS.:** You need to have a full Bash environment. If you're on Windows, please use WSL.
 
-1. Install the Dependencies:
+- **Install the Dependencies:**
   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
   - [NodeJS](https://nodejs.org/en/download/)
-2. Create a local clone of the website:
-```
-git clone https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome.git
-```
-3. Change into the faces-of-gnome directory
-```
-cd faces-of-gnome
-```
-4. Perform the following commands to install dependencies and structure the website properly:
-```
-./setup.sh
-```
-5. Build the site and make it available on your local server
-```
-./run.sh
-```
-6. Browse to [http://localhost:4000](http://localhost:4000) to view the website.
+- **Create a local clone of the website:**
+  ```
+  git clone https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome.git
+  ```
+- **Change into the faces-of-gnome directory**
+  ```
+  cd faces-of-gnome
+  ```
+- **Perform the following commands to install dependencies and structure the website properly:**
+  ```
+  ./setup.sh
+  ```
+- **Build the site and make it available on your local server**
+  ```
+  ./run.sh
+  ```
+- **Browse [http://localhost:4000](http://localhost:4000) to view the website.**
 
-## Dependencies
+## Project Dependencies
 
 This project relies on the dependencies as well. These dependencies are provided
 in the Ruby `Gemfile` or NPM's `package.json`. Following table shows the
