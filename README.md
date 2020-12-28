@@ -1,6 +1,6 @@
 # GNOME Contributors List
 
-The source for the [The Faces of GNOME](https://contributors.gnome.org)
+The source for the [The Faces of GNOME](https://teams.pages.gitlab.gnome.org/Engagement/websites/faces-of-gnome/)
 
 ## About
 
