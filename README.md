@@ -96,6 +96,7 @@ To get the site up and running locally, follow the below steps:
 
 - **Install the Dependencies:**
   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+  - Ruby Development Package (aka ruby-dev)
   - [NodeJS](https://nodejs.org/en/download/)
 - **Create a local clone of the website:**
   ```
