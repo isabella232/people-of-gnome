@@ -47,11 +47,11 @@ The data used by the site is stored in the form of following files:
     ├── assets/                             #contains site's valuable entities
     │   ├── font/                           #contains site's font: Red Hat Display
     │   ├── img/                            #contains site's images and illustrations
-    │   └── scss                            #contains site's preprocessor stylesheets   
+    │   └── scss                            #contains site's preprocessor stylesheets
     │       ├── colorful.scss               #stylesheet for syntax highlighting
     │       ├── index.scss                  #stylesheet for user defined styles
     │       ├── markdown.scss               #stylesheet for styling the markdown content
-    │       └── theme.scss                  #stylesheet for website's theme. Generated from Bootstrap 
+    │       └── theme.scss                  #stylesheet for website's theme. Generated from Bootstrap
     ├── collections/                        #contains the site's collections
     │   └── _pages/                         #contains site's main pages
     ├── _config.yml                         #contains Jekyll settings for the site
@@ -95,11 +95,11 @@ To get the site up and running locally, follow the below steps:
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/).
 2. Create a local clone of the website:
 ```
-git clone https://gitlab.gnome.org/Teams/Engagement/websites/contributors-index.git
+git clone https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome.git
 ```
-3. Change into the contributors-index directory
+3. Change into the faces-of-gnome directory
 ```
-cd contributors-index
+cd faces-of-gnome
 ```
 4. Perform the following commands to install dependencies and structure the website properly:
 ```
@@ -152,7 +152,7 @@ the other hand is performed only on `master` branch.
 This project is an open source project with a contributor community that spans across
 the globe. We want everyone in our community to feel safe and encourage the
 participation of people from all backgrounds, regardless of
-experience level, age, gender, identity, race, religion, or nationality.  We
+experience level, age, gender, identity, race, religion, or nationality. We
 expect all contributors to uphold the [Code of Conduct][code-of-conduct].
 
 ## License Information
