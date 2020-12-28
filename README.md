@@ -90,16 +90,13 @@ You're also free to add new Badges and Social Networks and Projects/Repositories
 
 ## Installing & Running
 
-To get the site up and running locally, follow the below steps:
-
-**PS.:** You need to have a full Bash environment. If you're on Windows, please use WSL.
+### Dependencies
 
 - Software Dependencies
   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
   - Ruby Development Package (aka ruby-dev)
   - [NodeJS](https://nodejs.org/en/download/)
-
-- Installing Dependencies in Ubuntu/Debian
+- Installing Dependencies in **Ubuntu/Debian**
   ```
   sudo apt update
   sudo apt install -y build-essential ruby ruby-dev nodejs npm bash git rsync
@@ -112,23 +109,29 @@ To get the site up and running locally, follow the below steps:
   brew install node rsync
   ```
 
-- **Create a local clone of the website:**
+### Setting up the repository
+  
+To get the site up and running locally, follow the below steps:
+
+**PS.:** You need to have a full Bash environment. If you're on Windows, please use WSL.
+
+- Create a local clone of the website:
   ```
   git clone https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome.git
   ```
-- **Change into the faces-of-gnome directory**
+- Change into the faces-of-gnome directory
   ```
   cd faces-of-gnome
   ```
-- **Perform the following commands to install dependencies and structure the website properly:**
+- Perform the following commands to install dependencies and structure the website properly:
   ```
   ./setup.sh
   ```
-- **Build the site and make it available on your local server**
+- Build the site and make it available on your local server
   ```
   ./run.sh
   ```
-- **Browse [http://localhost:4000](http://localhost:4000) to view the website.**
+- Browse [http://localhost:4000](http://localhost:4000) to view the website.
 
 ## Project Dependencies
 
