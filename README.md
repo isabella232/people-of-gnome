@@ -4,7 +4,7 @@ The source for the [The Faces of GNOME](https://teams.pages.gitlab.gnome.org/Eng
 
 ## About
 
-Contributors is a website that contains lists and indexes of all the past and current Contributors of GNOME.
+Faces of GNOME is a website that contains lists and indexes of all the past and current Contributors of GNOME.
 The site is developed with
 and maintained using [Jekyll][official-jekyll], a Static Site Generator
 developed with Ruby. The site uses following types of files for the content
