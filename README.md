@@ -94,10 +94,22 @@ To get the site up and running locally, follow the below steps:
 
 **PS.:** You need to have a full Bash environment. If you're on Windows, please use WSL.
 
-- **Install the Dependencies:**
+- Software Dependencies
   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
   - Ruby Development Package (aka ruby-dev)
   - [NodeJS](https://nodejs.org/en/download/)
+
+- Installing Dependencies in Ubuntu/Debian
+  ```
+  sudo apt update && sudo apt install -y build-essential ruby ruby-dev nodejs npm bash git rsync
+  ```
+- Installing Dependencies Windows
+  - Please use [WSL](https://docs.microsoft.com/en-us/windows/wsl/)
+- Installing Dependencies in macOS
+  ```
+  brew install node rsync
+  ```
+
 - **Create a local clone of the website:**
   ```
   git clone https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome.git
