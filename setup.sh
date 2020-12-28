@@ -11,7 +11,7 @@ npm ci ---cache .npm --prefer-offline --silent
 echo -e "\n💡 \033[1;34minstalling bundler locally \033[0m\n"
 
 # install gem dependencies
-gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)" --install-dir=$GEM_PATH --quiet --silent
+gem install bundler --install-dir=$GEM_PATH --quiet --silent
 
 echo -e "💡 \033[1;34minstalling bundler packages locally \033[0m\n"
 
