@@ -16,10 +16,10 @@ keywords: gnome, contributors, jekyll
 
 author: The GNOME Engagement Team
 twitter_username: GNOME
-website_repo: https://gitlab.gnome.org/Teams/Engagement/websites/contributors-index
+website_repo: https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome
 
 # jekyll configuration options
-url: https://teams.pages.gitlab.gnome.org/Engagement/websites/contributors-index
+url: https://teams.pages.gitlab.gnome.org/Engagement/websites/faces-of-gnome
 encoding: utf-8
 
 # markdown converter
