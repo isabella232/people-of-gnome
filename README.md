@@ -101,7 +101,9 @@ To get the site up and running locally, follow the below steps:
 
 - Installing Dependencies in Ubuntu/Debian
   ```
-  sudo apt update && sudo apt install -y build-essential ruby ruby-dev nodejs npm bash git rsync
+  sudo apt update
+  sudo apt install -y build-essential ruby ruby-dev nodejs npm bash git rsync
+  sudo gem update --system 3
   ```
 - Installing Dependencies Windows
   - Please use [WSL](https://docs.microsoft.com/en-us/windows/wsl/)
