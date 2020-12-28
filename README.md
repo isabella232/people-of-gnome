@@ -103,7 +103,7 @@ To get the site up and running locally, follow the below steps:
   ```
   sudo apt update
   sudo apt install -y build-essential ruby ruby-dev nodejs npm bash git rsync
-  sudo gem update --system 3
+  sudo gem update --system '2.7.9' 
   ```
 - Installing Dependencies Windows
   - Please use [WSL](https://docs.microsoft.com/en-us/windows/wsl/)
