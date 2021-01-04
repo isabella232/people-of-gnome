@@ -9,6 +9,7 @@ _site
 
 # Node Specific Artifacts
 node_modules/
+.npm
 
 # Generated Node Artifacts
 assets/@fortawesome/

@@ -48,7 +48,6 @@ $heights: 25, 50, 75, 100, auto;
     body {
         font-size: 1rem;
     }
-    
 }
 @media (min-width: 576px) {
     .landing-sm {
@@ -84,6 +83,7 @@ $heights: 25, 50, 75, 100, auto;
         z-index: 1000;
     }
 }
+
 html,
 body {
     overflow-x: hidden;
@@ -331,4 +331,16 @@ h6.letter-spacing-custom,
 }
 .text-shadow {
     text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.150) !important;
+}
+
+/* styling for image country emoji in member.html */
+.country-div {
+    left: 16rem;
+    bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+    .country-div {
+        bottom: 1rem;
+    }    
 }
