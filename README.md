@@ -74,6 +74,10 @@ Create a new YAML file on `_data/members/` directory containing the following en
 | Field         | Description                                       | Example                 | Type                                                    |
 | ------------- |:-------------------------------------------------:| -----------------------:| ------------------------------------------------------- |
 | Name          | Your name                                         | John Smith              | string                                                  |
+| Nick Name     | Your nick name                                    | ovrflowd                | string                                                  |
+| Pronoun       | Your pronoun                                      | he\him                  | string                                                  |
+| Bio           | Your bio/description                              | Kindness is amazing!    | string                                                  |
+| Country       | Your country/favourite emoji                      | 💫                      | emoji                                                   |
 | Avatar        | Your Avatar Image                                 | https://imgur.com/image | string/boolean                                          |
 | Position      | Your current position at the GNOME Project        | Community Manager       | string                                                  |
 | Badges        | All the badges/roles you held at GNOME/Foundation | `['engagement-team']`   | array:entries from `badges.json`                        |
