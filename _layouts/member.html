@@ -23,20 +23,24 @@ navbar_type: dark
       </div>
 
       <div class="col-md-8 col-sm-12 py-3">
-        <h2 class="font-weight-bold d-flex flex-row">
-          {{ page._name }} 
-          {% if page.nick %}
-          <div>
-            <small class="text-muted ml-2">({{ page.nick }})</small>
+        <h2 class="font-weight-bold d-flex flex-wrap">
+          <div class="mr-1">
+            {% if page._name.size > 20 %}
+            {{ page._name | slice: 0, 20 | append: "..." }} 
+            {% else %}
+            {{ page._name }} 
+            {% endif %}
           </div>
-          {% endif %}
-          {% if page.pronoun %}
-          <div>
+          <div class="d-flex" style="margin-top: 5px;">
+            {% if page.nick %}
+            <small class="text-muted">({{ page.nick }})</small>
+            {% endif %}
+            {% if page.pronoun %}
             <h5>
               <span class="badge ml-2 text-white" style="background-color: #6c757d;">{{page.pronoun}}</span>
             </h5>
+            {% endif %}
           </div>
-          {% endif %}
         </h2>
         <h4 class="text-muted">{{ page.title }}</h4>
 

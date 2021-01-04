@@ -1,11 +1,10 @@
 {% assign default_avatar = '/assets/img/avatar.png' | prepend: site.url %}
-{% assign name_with_url = include.member.name | prepend: "/members/" | prepend: site.url | rstrip %}
-{% assign member_file_name = name_with_url | downcase | replace: " ", "-" |  %}
+{% assign member_name = include.member.name | prepend: "/members/" | prepend: site.url | rstrip | downcase | replace: " ", "-" %}
 
 <div class="col-8 col-md-4 col-lg-3 mb-3 px-md-3 gnome-member" data-index="{{ forloop.index | default: 1 }}">
   <div class="d-flex flex-column align-items-center text-center shadow-sm-hover py-3 bg-white rounded">
     <div class="rounded-circle mb-2 avatar-picture" style="background-image:url( '{{ include.member.avatar | default: default_avatar }}' )"></div>
-    <span><strong class="gnome-member-name"><a href="{{ member_file_name | append: '.html'}}">{{ include.member.name }}</a></strong></span>
+    <span><strong class="gnome-member-name"><a href="{{ member_name }}">{{ include.member.name }}</a></strong></span>
     <span class="small text-muted">{{ include.member.title }}</span>
     {{ include.widgets }}
   </div>
