@@ -333,14 +333,26 @@ h6.letter-spacing-custom,
     text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.150) !important;
 }
 
-/* styling for image country emoji in member.html */
 .country-div {
-    left: 16rem;
+    left: 17rem;
     bottom: 2rem;
 }
 
-@media (max-width: 576px) {
+.country-circle-icon {
+    color: var(--light)
+}
+
+.country-emoji {
+    font-size: 120%;
+    margin-left: -92%;
+}
+
+.pronoun-badge {
+    background-color: var(--grey)
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
     .country-div {
-        bottom: 1rem;
+        left: 27rem;
     }    
 }
