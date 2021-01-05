@@ -351,8 +351,14 @@ h6.letter-spacing-custom,
     background-color: var(--grey)
 }
 
+.ellipsis-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .country-div {
-        left: 27rem;
+        left: 26rem;
     }    
 }

@@ -6,7 +6,7 @@ navbar_type: dark
 {% include navbar.html %}
 
 <section>
-  <div class="container" style="min-height: 50vh;">
+  <div class="container pr-4 pl-4" style="min-height: 50vh;">
     <div class="row py-5">
 
       <div class="col-lg-4 col-md-12 py-3">
@@ -23,17 +23,16 @@ navbar_type: dark
       </div>
 
       <div class="col-lg-8 col-md-12 py-3">
-        <h2 class="font-weight-bold d-flex flex-wrap">
-          <div class="mr-lg-1">
-            {% if page._name.size > 20 %}
-              {{ page._name | slice: 0, 20 | append: "..." }} 
-            {% else %}
-              {{ page._name }} 
-            {% endif %}
+        
+        <div class="row">
+          <div class="{% if page._name.size > 20 %} col-md-8 mr-n4 {% else %} col-md-auto mr-n3 {% endif %}">
+            <h2 class="font-weight-bold {% if page._name.size > 20 %} ellipsis-name {%endif %}">{{page._name}}</h2>
           </div>
-          <div class="d-flex mt-lg-1 ml-lg-1">
+          <div class="d-flex col-md-4">
             {% if page.nick %}
-              <small class="text-muted">({{ page.nick }})</small>
+              <h2 class="mt-n1">
+                <small class="text-muted">({{ page.nick }})</small>
+              </h2>
             {% endif %}
             {% if page.pronoun %}
               <h5>
@@ -41,7 +40,8 @@ navbar_type: dark
               </h5>
             {% endif %}
           </div>
-        </h2>
+        </div>
+    
         <h4 class="text-muted">{{ page.title }}</h4>
 
         <section class="py-1">
