@@ -16,7 +16,7 @@ navbar_type: dark
           {% if page.country %}
             <div class="position-absolute country-div">
               <i class="fa fa-circle fa-2x country-circle-icon" aria-hidden="true"></i>
-              <span class="position-absolute country-emoji">{{page.country}}</span>
+              <span class="position-absolute country-emoji">{{ page.country }}</span>
             </div>
           {% endif %}
         </div>
@@ -26,7 +26,7 @@ navbar_type: dark
         
         <div class="row">
           <div class="{% if page._name.size > 20 %} col-md-8 mr-n4 {% else %} col-md-auto mr-n3 {% endif %}">
-            <h2 class="font-weight-bold {% if page._name.size > 20 %} ellipsis-name {%endif %}">{{page._name}}</h2>
+            <h2 class="font-weight-bold {% if page._name.size > 20 %} ellipsis-name {%endif %}">{{ page._name }}</h2>
           </div>
           <div class="d-flex col-md-4">
             {% if page.nick %}
@@ -36,7 +36,7 @@ navbar_type: dark
             {% endif %}
             {% if page.pronoun %}
               <h5>
-                <span class="badge ml-2 text-white pronoun-badge">{{page.pronoun}}</span>
+                <span class="badge ml-2 text-white pronoun-badge">{{ page.pronoun }}</span>
               </h5>
             {% endif %}
           </div>
