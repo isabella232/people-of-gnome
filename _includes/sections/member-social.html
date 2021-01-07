@@ -1,8 +1,8 @@
 {% assign member_social_networks = site.data.social_networks %}
-{% assign check_member = page.url | split: "/members/" | first %}
+{% assign is_profile_page = page.url | split: "/members/" | first %}
 
 <ul class="list-unstyled list-inline text-small mt-1 mb-0">
-  {% if check_member == "" %}
+  {% if is_profile_page == "" %}
     {% for entry in include.list %}
       {% assign social = member_social_networks | where:"id", entry[0] | first %}
       <li class="list-inline-item">

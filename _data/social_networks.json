@@ -25,7 +25,7 @@
     "icon": "fab fa-instagram"
   },
   {
-    "id": "dev.to",
+    "id": "dev_to",
     "base": "https://dev.to/",
     "icon": "fab fa-dev"
   },
