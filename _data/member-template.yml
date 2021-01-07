@@ -19,9 +19,9 @@ social:
   blog: https://my.site
   twitter: handle
   gitlab: handle
-  matrix: handle
+  matrix: handle #include @
   instagram: handle
   dev.to: handle
   github: handle
-  mastodon: handle
+  mastodon: handle #include @
   keybase: handle

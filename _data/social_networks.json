@@ -22,26 +22,26 @@
   {
     "id": "instagram",
     "base": "https://instagram.com/",
-    "icon": "fa fa-instagram"
+    "icon": "fab fa-instagram"
   },
   {
     "id": "dev.to",
     "base": "https://dev.to/",
-    "icon": "fa fa-dev"
+    "icon": "fab fa-dev"
   },
   {
     "id": "github",
     "base": "https://github.com/",
-    "icon": "fa fa-github"
+    "icon": "fab fa-github"
   },
   {
     "id": "mastodon",
     "base": "https://mastodon.social/",
-    "icon": "fa fa-mastodon"
+    "icon": "fab fa-mastodon"
   },
   {
     "id": "keybase",
     "base": "https://keybase.io/",
-    "icon": "fa fa-keybase"
+    "icon": "fab fa-keybase"
   }
 ]
