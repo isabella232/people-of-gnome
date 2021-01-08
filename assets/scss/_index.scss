@@ -365,8 +365,10 @@ h6.letter-spacing-custom,
     border-radius: 0.25rem;
 }
 
-.form-project-control {
+.gnome-projects-filter {
     width: 280px;
+    height: 41px;
+    border-radius: 0;
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -379,7 +381,7 @@ h6.letter-spacing-custom,
     .footer-heading {
         font-size: 0.95rem;
     } 
-    .form-project-control {
+    .gnome-projects-filter {
         width: 200px;
     }   
 }
