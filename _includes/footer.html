@@ -24,7 +24,7 @@ to make changes related to the content, edit the `_data/navigation.yml`
           {% assign menu_links = site.data.navigation.menu_links %}
           {% for section in site.data.navigation.menu_links_sections %}
           <div class="col pl-0">
-            <h6 class="text-muted">{{ section.title | upcase }}</h6>
+            <h6 class="text-muted footer-heading">{{ section.title | upcase }}</h6>
             {% assign menu_links = site.data.navigation.menu_links | where: "section", section.title %}
             <ul class="list-unstyled text-small">
               {% for link in menu_links %}

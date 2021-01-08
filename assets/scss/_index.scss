@@ -362,3 +362,15 @@ h6.letter-spacing-custom,
         left: 26rem;
     }    
 }
+
+@media screen and (max-width: 375px) {
+    .footer-heading {
+        font-size: 0.95rem;
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .footer-heading {
+        font-size: 0.8rem;
+    }    
+}
