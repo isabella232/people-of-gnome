@@ -19,6 +19,7 @@
 </script>
 <script>
   const gnomeMembers = jQuery('.gnome-member');
+  const gnomeProjects = jQuery('.gnome-project');
 
   let currentPage = 1;
   let currentSearch = '';
@@ -26,6 +27,9 @@
   const amountOfContributors = gnomeMembers.length - 1;
   const amountPerPage = 10;
   const amountOfPages = amountOfContributors >= amountPerPage ? Math.round(amountOfContributors / amountPerPage) : 1;
+
+  const amountOfProjects = gnomeProjects.length - 1;
+  const amountOfProjectsPages = amountOfProjects >= amountPerPage ? Math.round(amountOfProjects / amountPerPage) : 1;
 
   const filterMethod = () => {
     gnomeMembers.filter(function() {
@@ -41,6 +45,21 @@
     });
   };
 
+  const filterProjectMethod = () => {
+    gnomeProjects.filter(function(){
+      const textSearchResultOfMember = jQuery(this).find('.gnome-member-name').text().toLowerCase().indexOf(currentSearch) > -1;
+      const textSearchResultOfProject = jQuery(this).find('.gnome-project-name').text().toLowerCase().indexOf(currentSearch) > -1;
+
+      const currentIndex = parseInt(jQuery(this).attr('data-index-project'));
+
+      const maximumPageNumberResult = currentIndex <= currentPage * amountPerPage;
+
+      const minimalPageNumberResult = currentPage > 1 ? currentIndex > ((currentPage - 1) * amountPerPage) : true;
+
+      jQuery(this).toggle((textSearchResultOfMember || textSearchResultOfProject) && maximumPageNumberResult && minimalPageNumberResult);
+    })
+  }
+
   const showPage = (pagination) => {
     const element = jQuery(pagination);
 
@@ -53,10 +72,27 @@
     element.addClass('active');
   };
 
+  const showProjectPage = (pagination) => {
+    const element = jQuery(pagination);
+
+    currentPage = parseInt(element.text());
+
+    filterProjectMethod();
+
+    jQuery('.page-item').removeClass('active');
+    element.addClass('active');
+  };
+
   for (let i = 1; i <= amountOfPages; i++) {
     jQuery('.pagination').
         append(
             `<li class="page-item" style="cursor: pointer" onClick="showPage(this)"><span class="page-link">${i}</span></li>`);
+  }
+
+  for (let i = 1; i <= amountOfProjectsPages; i++) {
+    jQuery('.pagination-project').
+        append(
+            `<li class="page-item" style="cursor: pointer" onClick="showProjectPage(this)"><span class="page-link">${i}</span></li>`);
   }
 
   jQuery('.gnome-members-filter').on('keyup', function() {
@@ -65,9 +101,16 @@
     filterMethod();
   });
 
+  jQuery('.gnome-projects-filter').on('keyup', function() {
+    currentSearch = jQuery(this).val().toLowerCase();
+
+    filterProjectMethod();
+  });
+
   jQuery('.page-item').first().addClass('active');
 
   filterMethod();
+  filterProjectMethod();
 
   if (amountOfContributors <= 0) {
     jQuery('.gnome-members-list').append('<span class="text-muted"><strong>No entries found.</strong></span>');

@@ -357,6 +357,18 @@ h6.letter-spacing-custom,
     text-overflow: ellipsis;
 }
 
+.pagination-project {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+
+.form-project-control {
+    width: 280px;
+}
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .country-div {
         left: 26rem;
@@ -366,7 +378,10 @@ h6.letter-spacing-custom,
 @media screen and (max-width: 375px) {
     .footer-heading {
         font-size: 0.95rem;
-    }    
+    } 
+    .form-project-control {
+        width: 200px;
+    }   
 }
 
 @media screen and (max-width: 320px) {
