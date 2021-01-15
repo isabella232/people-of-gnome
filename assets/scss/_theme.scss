@@ -308,22 +308,3 @@ $alert-icons: (
 .icon-dropshadow {
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
 }
-
-.avatar-picture {
-  width: 100px;
-  height: 100px;
-  background-size: cover;
-  background-position: center;
-}
-
-.avatar-picture-lg {
-  width: 250px;
-  height: 250px;
-  background-size: cover;
-  background-position: center;
-}
-
-.gnome-members-filter {
-  width: 300px;
-  border-radius: 0;
-}

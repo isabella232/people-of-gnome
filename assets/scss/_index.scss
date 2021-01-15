@@ -371,23 +371,52 @@ h6.letter-spacing-custom,
     border-radius: 0;
 }
 
+.avatar-picture {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+.avatar-picture-lg {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.gnome-members-filter {
+  width: 300px;
+  border-radius: 0;
+}
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .country-div {
         left: 26rem;
     }    
 }
 
+@media screen and (max-width: 430px) {
+    .gnome-projects-filter {
+        width: 185px;
+        height: 38px;
+    }   
+    .gnome-members-filter {
+        height: 38px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .footer-heading {
         font-size: 0.95rem;
     } 
-    .gnome-projects-filter {
-        width: 200px;
-    }   
 }
 
 @media screen and (max-width: 320px) {
     .footer-heading {
         font-size: 0.8rem;
     }    
+    .gnome-members-filter {
+        width: 230px;
+    }
 }
