@@ -1,6 +1,6 @@
 # Faces of GNOME
 
-The source for the [The Faces of GNOME](https://teams.pages.gitlab.gnome.org/Engagement/websites/faces-of-gnome/)
+The source for the [The Faces of GNOME](https://teams.pages.gitlab.gnome.org/Engagement/websites/faces-of-gnome)
 
 ## About
 
