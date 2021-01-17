@@ -44,6 +44,8 @@ The data used by the site is stored in the form of following files:
     │       ├── member-badges.html          #contains a sub-widget for displaying a member badges
     │       ├── member-conferences.html     #contains a sub-widget for displaying a member conferences list
     │       └── member-social.html          #contains a sub-widget for displaying a member social networks
+    ├── _layouts/     
+    │   ├── member.html                     #contains permanent profile page template for each members
     ├── assets/                             #contains site's valuable entities
     │   ├── font/                           #contains site's font: Red Hat Display
     │   ├── img/                            #contains site's images and illustrations
@@ -183,8 +185,8 @@ expect all contributors to uphold the [Code of Conduct][code-of-conduct].
 This project is licensed under the [Creative Commons BY-SA-4.0][license].
 
 <!-- markdown variables -->
-[contributing]: /CONTRIBUTING.MD
-[code-of-conduct]: /CODE_OF_CONDUCT.MD
+[contributing]: /CONTRIBUTING.md
+[code-of-conduct]: /CODE_OF_CONDUCT.md
 [official-jekyll]: https://jekyllrb.com
 [package.json]: package.json
 [Gemfile]: Gemfile
