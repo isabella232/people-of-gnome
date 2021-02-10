@@ -21,7 +21,7 @@ The data used by the site is stored in the form of following files:
 ## Project Structure
 
     ...
-    ├── .gitlab/                            #contains Gitlab template files for bugs and merge requests
+    ├── .gitlab/                            #contains GitLab template files for bugs and merge requests
     ├── _data/                              #contains site's data files
     │   ├── members/                        #contains all the members/contributors stored in the platform in YML format
     │   ├── navigation.yml                  #links to be added to the site's header and footer sections
@@ -58,7 +58,7 @@ The data used by the site is stored in the form of following files:
     │   └── _pages/                         #contains site's main pages
     ├── _config.yml                         #contains Jekyll settings for the site
     ├── .gitignore
-    ├── .gitlab-ci.yml                      #for Gitlab Continuous Integration and Deployment
+    ├── .gitlab-ci.yml                      #for GitLab Continuous Integration and Deployment
     ├── 404.html                            #custom not found page. Only works when deployed to GitLab Pages
     ├── CODE_OF_CONDUCT.md
     ├── Gemfile                             #contains gem dependencies for the site.
@@ -147,14 +147,14 @@ list of dependencies used by this project:
 
 Package | Version | File | Source
 --- | --- | --- | ---
-bootstrap | `4.4.1` | [package.json][package.json] | [Github](https://github.com/twbs/bootstrap)
-@fortawesome/fontawesome-free | `5.12.0` | [package.json][package.json] | [Github](https://github.com/FortAwesome/Font-Awesome)
-jquery | `3.4.1` | [package.json][package.json] | [Github](https://github.com/jquery/jquery)
-popper.js | `1.16.1` | [package.json][package.json] | [Github](https://github.com/FezVrasta/popper.js/)
-slick-carousel | `1.8.1` | [package.json][package.json] | [Github](https://github.com/kenwheeler/slick/)
-moment | `2.24.0` | [package.json][package.json] | [Github](https://github.com/moment/moment/)
-node-sass | `4.13.1` | [package.json][package.json] | [Github](https://github.com/sass/node-sass/)
-jekyll | `3.8.5` | [Gemfile][Gemfile] | [Github](https://github.com/jekyll/jekyll/)
+bootstrap | `4.4.1` | [package.json][package.json] | [GitHub](https://github.com/twbs/bootstrap)
+@fortawesome/fontawesome-free | `5.12.0` | [package.json][package.json] | [GitHub](https://github.com/FortAwesome/Font-Awesome)
+jquery | `3.4.1` | [package.json][package.json] | [GitHub](https://github.com/jquery/jquery)
+popper.js | `1.16.1` | [package.json][package.json] | [GitHub](https://github.com/FezVrasta/popper.js/)
+slick-carousel | `1.8.1` | [package.json][package.json] | [GitHub](https://github.com/kenwheeler/slick/)
+moment | `2.24.0` | [package.json][package.json] | [GitHub](https://github.com/moment/moment/)
+node-sass | `4.13.1` | [package.json][package.json] | [GitHub](https://github.com/sass/node-sass/)
+jekyll | `3.8.5` | [Gemfile][Gemfile] | [GitHub](https://github.com/jekyll/jekyll/)
 
 Read about adding/updating/removing dependencies on [how to contribute](CONTRIBUTING.MD#addingupdatingremoving-dependencies).
 
