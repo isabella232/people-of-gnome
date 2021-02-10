@@ -1,5 +1,5 @@
 {
-  "name": "faces-of-gnome",
+  "name": "people-of-gnome",
   "version": "1.0.0",
   "description": "A platform for indexing and listing GNOME Contributors, Speakers, Staff and Foundation.",
   "scripts": {
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome.git"
+    "url": "https://gitlab.gnome.org/Teams/Engagement/websites/people-of-gnome.git"
   },
   "bugs": {
-    "url": "https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome/issues"
+    "url": "https://gitlab.gnome.org/Teams/Engagement/websites/people-of-gnome/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",

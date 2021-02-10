@@ -1,10 +1,10 @@
 # general options
 
 # name of the website
-name: Faces of GNOME
+name: People of GNOME
 
 # title of the website
-title: Faces of GNOME
+title: People of GNOME
 
 # short description of the website
 description: GNOME Contributors is an open platform were we share our past and current Contributors profiles, the projects they worked on and more. We also list Foundation Members, GNOME Events Speakers and Foundation Staff
@@ -16,10 +16,10 @@ keywords: gnome, contributors, jekyll
 
 author: The GNOME Engagement Team
 twitter_username: GNOME
-website_repo: https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome
+website_repo: https://gitlab.gnome.org/Teams/Engagement/websites/people-of-gnome
 
 # jekyll configuration options
-url: https://teams.pages.gitlab.gnome.org/Engagement/websites/faces-of-gnome
+url: https://teams.pages.gitlab.gnome.org/Engagement/websites/people-of-gnome
 encoding: utf-8
 
 # markdown converter

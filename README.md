@@ -1,10 +1,10 @@
-# Faces of GNOME
+# People of GNOME
 
-The source for the [The Faces of GNOME](https://teams.pages.gitlab.gnome.org/Engagement/websites/faces-of-gnome)
+The source for the [The People of GNOME](https://teams.pages.gitlab.gnome.org/Engagement/websites/people-of-gnome)
 
 ## About
 
-Faces of GNOME is a website that contains lists and indexes of all the past and current Contributors of GNOME.
+People of GNOME is a website that contains lists and indexes of all the past and current Contributors of GNOME.
 The site is developed with
 and maintained using [Jekyll][official-jekyll], a Static Site Generator
 developed with Ruby. The site uses following types of files for the content
@@ -123,11 +123,11 @@ To get the site up and running locally, follow the below steps:
 
 - Create a local clone of the website:
   ```
-  git clone https://gitlab.gnome.org/Teams/Engagement/websites/faces-of-gnome.git
+  git clone https://gitlab.gnome.org/Teams/Engagement/websites/people-of-gnome.git
   ```
-- Change into the faces-of-gnome directory
+- Change into the people-of-gnome directory
   ```
-  cd faces-of-gnome
+  cd people-of-gnome
   ```
 - Perform the following commands to install dependencies and structure the website properly:
   ```
