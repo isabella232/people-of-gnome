@@ -40,7 +40,9 @@ maintainers:
             </div>
             <div class="col">
               <h6 class="d-block pl-0 d-md-none col-12 text-primary small font-weight-normal letter-spacing-custom">{{ page.maintainers.subheading | upcase }}</h6>
-              <h4 class="font-weight-light mb-1 gnome-project-name">{{ project.name }}</h4>
+              <h4 class="font-weight-light mb-1 gnome-project-name">
+                <a href="{{ project.repository }}" target="_blank" style="color: initial">{{ project.name }}</a>
+              </h4>
               <small class="text-muted">{{ project.description }}</small>
             </div>
           </div>

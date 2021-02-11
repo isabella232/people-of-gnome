@@ -64,7 +64,7 @@
   {
     "id": "gtk",
     "name": "GTK — The GTK toolkit",
-    "icon": "https://gitlab.gnome.org/GNOME/gtk/-/raw/master/gtk/inspector/logo.png",
+    "icon": "https://gitlab.gnome.org/Infrastructure/gtk-web/-/raw/master/assets/img/logo-gtk-sm.png",
     "description": "Creates graphical user interfaces",
     "repository": "https://gitlab.gnome.org/GNOME/gtk",
     "maintainers": [
