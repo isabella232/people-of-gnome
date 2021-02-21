@@ -76,7 +76,7 @@ Create a new YAML file on `_data/members/` directory containing the following en
 | Field         | Description                                       | Example                 | Type                                                    |
 | ------------- |:-------------------------------------------------:| -----------------------:| ------------------------------------------------------- |
 | Name          | Your name                                         | John Smith              | string                                                  |
-| Nick Name     | Your nick name                                    | ovrflowd                | string                                                  |
+| Nick Name     | Your nick name                                    | ovflowd                | string                                                  |
 | Pronoun       | Your pronoun                                      | he\him                  | string                                                  |
 | Bio           | Your bio/description                              | Kindness is amazing!    | string                                                  |
 | Country       | Your country/favourite emoji                      | 💫                      | emoji                                                   |
@@ -147,7 +147,7 @@ list of dependencies used by this project:
 
 Package | Version | File | Source
 --- | --- | --- | ---
-bootstrap | `4.4.1` | [package.json][package.json] | [GitHub](https://github.com/twbs/bootstrap)
+bootstrap | `4.4.1` | [package.json][package.json] | [GitHub](https://github.com/twbs/bootstrap/)
 @fortawesome/fontawesome-free | `5.12.0` | [package.json][package.json] | [GitHub](https://github.com/FortAwesome/Font-Awesome)
 jquery | `3.4.1` | [package.json][package.json] | [GitHub](https://github.com/jquery/jquery)
 popper.js | `1.16.1` | [package.json][package.json] | [GitHub](https://github.com/FezVrasta/popper.js/)
