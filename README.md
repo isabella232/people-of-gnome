@@ -60,7 +60,6 @@ The data used by the site is stored in the form of following files:
     ├── .gitignore
     ├── .gitlab-ci.yml                      #for GitLab Continuous Integration and Deployment
     ├── 404.html                            #custom not found page. Only works when deployed to GitLab Pages
-    ├── CODE_OF_CONDUCT.md
     ├── Gemfile                             #contains gem dependencies for the site.
     ├── Gemfile.lock
     ├── LICENSE.txt
@@ -186,7 +185,7 @@ This project is licensed under the [Creative Commons BY-SA-4.0][license].
 
 <!-- markdown variables -->
 [contributing]: /CONTRIBUTING.md
-[code-of-conduct]: /CODE_OF_CONDUCT.md
+[code-of-conduct]: https://wiki.gnome.org/Foundation/CodeOfConduct
 [official-jekyll]: https://jekyllrb.com
 [package.json]: package.json
 [Gemfile]: Gemfile
