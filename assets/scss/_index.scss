@@ -90,7 +90,7 @@ body {
     scroll-behavior: smooth;
 }
 .app-icon {
-    max-width: 120px !important;
+    width: 100px !important;
 }
 .app-icon-small {
     max-width: 60px !important;
@@ -99,8 +99,7 @@ body {
     opacity: 0.75;
 }
 
-/* styling for the app slider section on the index.html */
-
+/* styling for the app slider section on the our-maintainers.html */
 .slider .slide:hover {
     cursor: pointer;
 }
